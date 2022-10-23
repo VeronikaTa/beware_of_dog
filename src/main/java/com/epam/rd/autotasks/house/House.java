@@ -1,13 +1,16 @@
 package com.epam.rd.autotasks.house;
 
+import com.epam.rd.autotasks.residents.cats.Cat;
+import com.epam.rd.autotasks.residents.dogs.Dog;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class House {
+public class House <T>{
 
-    private final List residents = new ArrayList();
+    private  List<T> residents = new ArrayList<T>();
 
-    public void enter(Object resident) {
+    public  void enter(T resident) {
         residents.add(resident);
     }
 
