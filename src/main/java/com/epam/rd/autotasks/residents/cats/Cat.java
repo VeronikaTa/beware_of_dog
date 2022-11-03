@@ -1,4 +1,4 @@
-package com.epam.rd.autotasks.residents.cats;
+package com.epam.training.student_veronika_tarasova.beware_of_dogs.src.main.java.com.epam.rd.autotasks.residents.cats;
 
 public class Cat {
 
